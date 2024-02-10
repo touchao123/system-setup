@@ -41,6 +41,10 @@ apt-get -y update
 echo "Installing curl"
 apt-get install -y curl
 
+# Cmake
+echo "Installing cmake"
+apt-get install -y cmake
+
 # Git
 echo 'Installing latest git'
 add-apt-repository ppa:git-core/ppa -y
@@ -80,6 +84,13 @@ newgrp docker
 # Dev tools
 echo "Installing dev tools"
 apt-get install build-essential
+
+
+# tmux
+echo "Installing tmux"
+apt-get install -y tmux
+sh tmux.sh
+
 
 # Productivity
 echo "Installing productivity apps"
