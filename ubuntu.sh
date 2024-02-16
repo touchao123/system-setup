@@ -91,6 +91,11 @@ echo "Installing tmux"
 apt-get install -y tmux
 sh tmux.sh
 
+# net debug tools
+echo "Installing tcpdump bind-utils net-tools"
+apt-get install bind-utils && \
+tcpdump && \
+net-tools
 
 # Productivity
 echo "Installing productivity apps"
