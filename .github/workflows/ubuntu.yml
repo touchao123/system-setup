@@ -1,8 +1,8 @@
-name: Ubuntu
+name: Ubuntu22.02
 
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
   workflow_dispatch:
 
 jobs:
