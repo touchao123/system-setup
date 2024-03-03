@@ -1,6 +1,5 @@
 # Dev Workstation Setup
 
-[![Mac](https://github.com/ainsleyclark/system-setup/actions/workflows/mac.yml/badge.svg?branch=master)](https://github.com/ainsleyclark/system-setup/actions/workflows/mac.yml)
 [![Ubuntu](https://github.com/ainsleyclark/system-setup/actions/workflows/ubuntu.yml/badge.svg?branch=master)](https://github.com/ainsleyclark/system-setup/actions/workflows/ubuntu.yml)
 
 These scripts are designed to set up a dev workstation on macOS and Ubuntu. These scripts install programming languages
@@ -14,11 +13,6 @@ merley a boilerplate to go off!
 ## How to use
 Simply download this repo or clone it and run the following:
 
-**macOS:**
-```bash
-sudo chmod +x ./mac.sh
-sh mac.sh
-```
 
 **Ubuntu:**
 ```bash
@@ -39,53 +33,6 @@ new repositories.
 You are able to set the specific versions of GoLang and PHP at the very top of the install scripts.
 
 ## What's installed
-
-### macOS
-
-- Curl
-- wget
-- Git
-- Chrome
-- Firefox
-- Edge
-- iTerm2
-- GoLang
-- Node
-- PHP
-- Python
-- MySQL
-- MySQL Client
-- VS Code
-- GoLand
-- PhpStorm
-- DataGrip
-- WebStorm
-- Slack
-- WhatsApp
-- Zoom
-- Bash 5
-- Zsh
-- Oh My ZSH
-- KubeCTL
-- Go Releaser
-- Hugo
-- Postman
-- Simplenote
-- Adobe Creative Cloud
-- Spotify
-- VLC
-- Plex
-- Transmission
-- Carbon Copy Cloner
-- Geekbench
-- Handbrake
-- Neofetch
-- Webp
-- OptiPNG
-- JpegOptim
-- libavif
-- ffmpeg
-- Shpotify
 
 ### Ubuntu
 
