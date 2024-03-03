@@ -85,6 +85,7 @@ echo "update"
   ca-certificates \
   curl \
   cmake \
+  pkg-config \
   make \
   cppcheck \
   libtool \
