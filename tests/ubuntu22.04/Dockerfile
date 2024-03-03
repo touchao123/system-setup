@@ -5,7 +5,8 @@ ARG PASSWORD=ubuntu
 
 RUN apt-get update 
 RUN     \
-    apt-get install -y sudo 
+    apt-get install -y sudo \
+    git 
 
 RUN groupadd ubuntu
 RUN useradd -d /home/$USERNAME -ms /bin/bash -g ubuntu -G sudo $USERNAME
