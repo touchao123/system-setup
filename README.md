@@ -17,7 +17,14 @@ Simply download this repo or clone it and run the following:
 **Ubuntu:**
 ```bash
 sudo chmod +x ./ubuntu.sh
-sudo sh ubuntu.sh
+sudo -E sh -c "./ubuntu.sh"
+
+```
+
+or install target by select
+
+```
+sudo -E sh -c "./ubuntu.sh install_ubuntu_tools_tmux"
 ```
 
 ## Git
