@@ -32,9 +32,11 @@ Git will be configured and a username and email address will be read at the begi
 The  `.gitignore` file that resides under `./git` will be copied and used globally to exclude any large library files from
 new repositories.
 
-## ZSH
-[Oh My ZSH](https://ohmyz.sh/) will be installed and aliases and functions will be copied from the `zsh` folder if the
-`post-install.sh` script is run. Please feel free to clone this repo and edit.
+## DUF
+Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
+![image](https://github.com/muesli/duf/blob/master/duf.png)
+
+
 
 ## Versions
 You are able to set the specific versions of GoLang and PHP at the very top of the install scripts.
