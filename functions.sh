@@ -48,6 +48,17 @@ function install_ubuntu_tools_net() {
   net-tools
 }
 
+# system supervisor tools
+function install_ubuntu_tools_system() {
+  echo "Installing system monitor tools"
+  sudo apt-get install -y --no-install-recommends \
+  duf \
+  htop \
+  iotop \
+  iftop 
+}
+
+
 # Productivity
 echo "Installing productivity apps"
 
